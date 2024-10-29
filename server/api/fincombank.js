@@ -18,7 +18,8 @@ async function scrapeData(url) {
 }
 
 export default defineEventHandler(async (event) => {
-    const data = await scrapeData('https://www.curs.md/ru/curs_valutar_banci');
+    const url = 'https://www.curs.md/ru/curs_valutar_banci';
+    const data = await scrapeData(url);
     
     return data;
 });
