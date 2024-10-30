@@ -1,7 +1,7 @@
 <template>
     <div class="container--wide">
-        <h1>{{ data.title || '-' }}</h1>
-        <p>{{ data.bankName || '-' }} - Покупка доллара {{ data.bankBuyUSD }}, Продажа {{ data.bankSellUSD }}</p>
+        <h1>{{ data.title }}</h1>
+        <p>{{ data.bankName }} - Покупка доллара {{ data.bankBuyUSD }}, Продажа {{ data.bankSellUSD }}</p>
     </div>
 </template>
 
